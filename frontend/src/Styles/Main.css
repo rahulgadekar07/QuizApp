@@ -1,0 +1,63 @@
+/* Custom styles for Main component */
+body {
+    background-color: #395775; /* Light gray background */
+  }
+  
+  .card {
+    border: 2px solid #17a2b8;
+    background: linear-gradient(135deg, #4a90e2, #17a2b8); /* Gradient background */
+    color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Increased box shadow for depth */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Clip overflowing content */
+  }
+  
+  .card-header {
+    background-color: #124b60; /* Darker color for header */
+  }
+  
+  h1.display-4 {
+    color: #e4e40f!important; /* Heading color */
+    font-size: 3.5em; /* Adjust the font size */
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle text shadow */
+  }
+  
+  /* Shimmering gradient animation */
+  @keyframes shimmerGradient {
+    0% {
+      background-position: -10% 0%;
+    }
+    100% {
+      background-position: -100% 0%;
+    }
+  }
+  
+  .btn-primary {
+    background: linear-gradient(45deg, #ff0000, #ffa500, #ff0000); /* Two colors for shimmering effect */
+    background-size: 200% 100%;
+    
+    border: none;
+    color: #fff; /* Light text */
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #21b924; /* Darker color on hover */
+    border-color: #0d3f4f;
+    animation: shimmerGradient 1s infinite linear;
+  }
+  
+  /* Fix list numbers alignment */
+  ol {
+    text-align: left;
+    padding-left: 1.5em;
+  }
+  
+  ol li {
+    margin-bottom: 0.5em;
+  }
