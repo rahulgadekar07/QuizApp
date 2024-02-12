@@ -1,0 +1,32 @@
+/* Custom styles for Result component */
+.result-container {
+    background: linear-gradient(45deg, #273787, #1a275c, #30c5d8);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(148, 35, 35, 0.5);
+    margin: 20px;
+    border: 2px solid red;
+
+  }
+  
+  .result-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .table-dark11 {
+    border-radius: 100px; /* Rounded borders for the table */
+    border: 2px solid gold;
+
+  }
+  
+  .table-dark tbody tr:nth-of-type(odd) {
+    background-color: #1a275c; /* Dark blue background for odd rows */
+  }
+  
+  .table-dark tbody tr:hover {
+    background-color: #30c5d8; /* Lighter blue background on hover */
+  }
+  

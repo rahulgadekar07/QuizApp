@@ -1,11 +1,11 @@
 /* Custom styles for Main component */
 body {
-    background-color: #395775; /* Light gray background */
+    background-color: #101821; /* Light gray background */
   }
   
   .card {
-    border: 2px solid #17a2b8;
-    background: linear-gradient(135deg, #4a90e2, #17a2b8); /* Gradient background */
+    border: 2px solid #1f1f3d;
+    background: linear-gradient(135deg, #3337ae, #1f1f3d); /* Gradient background */
     color: #fff;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Increased box shadow for depth */
     border-radius: 10px; /* Rounded corners */
@@ -16,7 +16,7 @@ body {
     background-color: #124b60; /* Darker color for header */
   }
   
-  h1.display-4 {
+  h2.display-4 {
     color: #e4e40f!important; /* Heading color */
     font-size: 3.5em; /* Adjust the font size */
     font-weight: bolder;
@@ -34,8 +34,8 @@ body {
     }
   }
   
-  .btn-primary {
-    background: linear-gradient(45deg, #ff0000, #ffa500, #ff0000); /* Two colors for shimmering effect */
+  .btn-primary1 {
+    background: linear-gradient(45deg, #273787, #30c5d8, #1a275c); /* Two colors for shimmering effect */
     background-size: 200% 100%;
     
     border: none;
@@ -46,7 +46,7 @@ body {
     text-decoration: none;
   }
   
-  .btn-primary:hover {
+  .btn-primary1:hover {
     background-color: #21b924; /* Darker color on hover */
     border-color: #0d3f4f;
     animation: shimmerGradient 1s infinite linear;

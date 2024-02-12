@@ -1,6 +1,8 @@
 import '../Styles/App.css';
 import {BrowserRouter,RouterProvider, createBrowserRouter} from 'react-router-dom';
 import Main from './Main';
+import Quiz from './Quiz';
+import Result from './Result';
 
 const router = createBrowserRouter([
   {
@@ -9,11 +11,11 @@ const router = createBrowserRouter([
   },
   {
     path:'/Quiz',
-    element:<div>Quiz element</div>
+    element:<Quiz></Quiz>
   },
   {
-    path:'/Results',
-    element:<div>Results element</div>
+    path:'/Result',
+    element:<Result></Result>
   }
 ])
 function App() {

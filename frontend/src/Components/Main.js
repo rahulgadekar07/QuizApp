@@ -7,7 +7,7 @@ const Main = () => {
 
   return (
     <div className="container my-4 text-center text-light"> {/* Fix the typo here */}
-      <h1 className="display-4 text-dark mb-4">Quiz Application</h1>
+      <h2 className="display-4 text-dark mb-4">Quiz Application</h2>
 
       <div className="card mx-auto p-4">
         <p className="lead">
@@ -35,7 +35,7 @@ const Main = () => {
             id="username"
             placeholder="Username*"
           />
-          <Link to={'Quiz'} className="btn btn-primary btn-lg btn-block">
+          <Link to={'Quiz'} className="btn btn-primary1 btn-lg btn-block">
             Start Quiz
           </Link>
         </form>
